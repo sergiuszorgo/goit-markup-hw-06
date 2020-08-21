@@ -482,8 +482,7 @@ ul {
   height: 44px;
   margin-bottom: 0;
   border-radius: 50%;
-  transition: background-color var(--time) var(--function),
-    fill var(--time) var(--function);
+  transition: background-color var(--time) var(--function);
 }
 
 .social-link .icon {
@@ -498,6 +497,7 @@ ul {
 .social-link:focus .icon {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
+  transition: fill var(--time) var(--function);
 }
 
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
